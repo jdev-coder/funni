@@ -5,6 +5,6 @@
 
 body {
   background-color: black;
-  animation-name lol;
+  animation-name: lol;
   animation-iteration-count: infinite;
 }
