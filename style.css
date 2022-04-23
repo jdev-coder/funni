@@ -1,3 +1,10 @@
+@keyframes lol {
+  from {background-color: black;}
+  to {background-color: blue;}
+}
+
 body {
   background-color: black;
+  animation-name lol;
+  animation-iteration-count: infinite;
 }
