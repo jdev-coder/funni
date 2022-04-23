@@ -6,5 +6,6 @@
 body {
   background-color: black;
   animation-name: lol;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
