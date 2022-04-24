@@ -9,4 +9,5 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
+  content: 'try to view the code using view-source: LOL!!!';
 }
