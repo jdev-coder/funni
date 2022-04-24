@@ -1,16 +1,29 @@
-@keyframes lol {
-  from {background-color: black;}
-  to {background-color: orange;}
+html {
+  display: flex;
+  height:100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background: #222;
 }
 
-body {
-  background-color: black;
-  animation-name: lol;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+body::before {
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'SF Mono', 'Courier New', Courier, monospace;
+  font-size: 42px;
+  color: skyblue;
+  padding-top: 3rem;
+  content: "Never gonna give you up!!";
 }
 
 head {
+  border: 5px solid #ffff;
+  position: absolute;
+  top: 50px;
+  height: 16rem;
+  width: 12rem;
+  display: block;
   background-image: url("https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif"); 
 }
