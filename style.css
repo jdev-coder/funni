@@ -8,14 +8,13 @@ html {
   background: #222;
 }
 
-body::before {
-  display: inline-block;
-  font-weight: bold;
-  font-family: 'SF Mono', 'Courier New', Courier, monospace;
-  font-size: 42px;
-  color: skyblue;
-  padding-top: 3rem;
-  content: "Never gonna give you up!!";
+body {
+  position: absolute;
+  width: 59rem;
+  height: 6rem;
+  top: 50%;
+  display: block;
+  background-image: url("https://jdev-coder.github.io/funni/cooltext409390324524857.png");
 }
 
 head {
