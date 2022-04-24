@@ -1,6 +1,6 @@
 @keyframes lol {
   from {background-color: black;}
-  to {background-color: blue;}
+  to {background-color: orange;}
 }
 
 body {
@@ -8,6 +8,9 @@ body {
   animation-name: lol;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-direction: reverse;
-  background-image: url("https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif");
+  animation-direction: alternate;
+}
+
+head {
+  background-image: url("https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif"); 
 }
