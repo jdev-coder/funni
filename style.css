@@ -8,4 +8,5 @@ body {
   animation-name: lol;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-direction: reverse;
 }
